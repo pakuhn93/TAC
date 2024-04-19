@@ -1,6 +1,7 @@
 {
-  "name": "tac-west-marches-basic",
+  "name": "TAC",
   "private": true,
+  "homepage":"https://pakuhn93.github.io/TAC",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

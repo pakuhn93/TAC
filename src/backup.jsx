@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 
 // router stuff 
-import { createHashRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 // pages included on the website
 import Home from './pages/Home/Home.jsx';
@@ -17,7 +17,7 @@ import CharacterCreation from './pages/Information/CharacterCreation/CharacterCr
 import Announcements from './pages/Announcements/Announcements.jsx';
 
 // initialize the router (similar to express)
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: '/TAC',
     element: <App />,
