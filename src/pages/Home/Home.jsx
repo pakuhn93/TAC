@@ -12,7 +12,7 @@ export default function Home(){
     // Primary Navigation
     const navPrimary = [
         {
-            text: "Announcements",
+            text: "Announcements UPDATED",
             url: "/TAC/announcements"
         },
     ];
