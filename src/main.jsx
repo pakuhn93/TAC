@@ -19,7 +19,7 @@ import Announcements from './pages/Announcements/Announcements.jsx';
 // initialize the router (similar to express)
 const router = createBrowserRouter([
   {
-    path: '/TAC-West-Marches-Front',
+    path: '/TAC',
     element: <App />,
     children: [
       {
