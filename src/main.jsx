@@ -19,7 +19,7 @@ import Announcements from './pages/Announcements/Announcements.jsx';
 // initialize the router (similar to express)
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/TAC',
     element: <App />,
     children: [
       {
@@ -27,31 +27,31 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: '/announcements',
+        path: '/TAC/announcements',
         element: <Announcements />
       },
       {
-        path: '/gamesignup',
+        path: '/TAC/gamesignup',
         element: <GameSignup />
       },
       {
-        path: '/information',
+        path: '/TAC/information',
         element: <Information />
       },
       {
-        path: '/charactercreation',
+        path: '/TAC/charactercreation',
         element: <CharacterCreation />
       },
       {
-        path: '/lore',
+        path: '/TAC/lore',
         element: <Lore />
       },
       {
-        path: '/map',
+        path: '/TAC/map',
         element: <Map />
       },
       {
-        path: '/merch',
+        path: '/TAC/merch',
         element: <Merch />
       },
     ]
