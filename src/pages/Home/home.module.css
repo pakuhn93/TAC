@@ -1,0 +1,171 @@
+/* Header Organization */
+.contHeader {
+    display: flex;
+    border: solid;
+    aspect-ratio: 16;
+    font-size: 4vw;
+}
+
+.btnHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: purple;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+/* Main Organization */
+.contMain {
+    margin: 0;
+    display: flex;
+    border: solid;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    justify-content: space-evenly;
+    aspect-ratio: 13 / 5;
+}
+
+.contLeft {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    font-size: 32px;
+    text-align: center;
+    margin: 5%;
+    height: 75%;
+    aspect-ratio: 16 / 9;
+    border: solid;
+
+    background-color: grey;
+}
+
+.contRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+    text-align: center;
+    margin: 5%;
+    height: 75%;
+}
+
+.contAnnouncements {
+    background-color: green;
+    overflow: scroll;
+}
+
+/* Announcements Organization and Formatting */
+.announcementHeader {
+    font-size: 3vw;
+    text-decoration: none;
+    color: yellow;
+}
+
+.announcementHeader:hover {
+    color: white;
+}
+
+.announcementContent {
+    font-size: 1.5vw;
+    color: blue;
+    padding: 0;
+    margin: 0;
+}
+
+/* Button Organization and Formatting */
+.btnPrimary {
+    font-size: 4vw;
+    border: solid;
+    text-decoration: none;
+    color: black;
+}
+
+.btnSecondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    text-decoration: none;
+    color: black;
+    font-size: 2.5vw;
+}
+
+.btnSecondary:hover {
+    background-color: lightgray;
+}
+
+/* Footer Organization */
+.contFooter {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row;
+    border: solid;
+}
+
+.contFooterLeft {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 5%;
+    margin-top: 1%;
+    border: solid;
+}
+
+.contFooterRight {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 30%;
+    margin: 5%;
+    margin-top: 1%;
+    border: solid;
+}
+
+.textFooter {
+    margin: 1%;
+    padding: 2%;
+    border: solid;
+    text-align: center;
+}
+
+.btnFooter {
+    margin: auto;
+    padding: 4px;
+}
+
+/* Misc. */
+hr {
+    background-color:black;
+    height: 0.25vw;
+    border: none;
+}
+
+/* Mobile Scalability */
+@media screen and (max-width: 1280px){
+    .contMain {
+        background-color: gray;
+        flex-wrap:wrap;
+    }
+
+    .contRight {
+        width: 70%;
+    }
+
+    .contFooter {
+        background-color: gray;
+        flex-wrap: wrap;
+    }
+
+    .contFooterLeft {
+        flex-wrap: wrap;
+    }
+
+    .contFooterRight {
+        flex-wrap: wrap;
+    }
+}
