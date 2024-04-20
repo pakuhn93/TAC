@@ -126,7 +126,7 @@ export default function Home(){
                     navHeader.map((btn, index) => {
                         return (
                             <a href={btn.url} key={`btnHeader_${index}`} className={styles.btnHeader}>
-                                {btn.text != undefined ? `${btn.text}` : ""}
+                                {btn.text != undefined ? `${btn.text}` : "Loading..."}
                             </a>
                         );
                     })
