@@ -4,7 +4,7 @@ export default function Home(){
     // Header Navigation
     const navHeader = [
         {
-            text: "Tabletop Adventuring Club - West Marches",
+            text: "Tabletop Adventuring Club, LLC (TAC)",
             url: "/TAC"
         },
     ];
