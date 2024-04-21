@@ -12,7 +12,7 @@ export default function Home(){
     // Primary Navigation
     const navPrimary = [
         {
-            text: "Announcements UPDATED",
+            text: "Announcements",
             url: "/TAC/announcements"
         },
     ];
@@ -21,51 +21,53 @@ export default function Home(){
     const navAnnouncements = [
         {
             title: "Announcement One",
+            category: "",
             content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis eleifend congue. Nullam sed viverra lorem, ut accumsan justo. In hendrerit libero ipsum, ut vehicula elit tempor et. Praesent semper vulputate lectus non convallis. Cras finibus, dolor quis hendrerit placerat, nibh ipsum imperdiet orci, non bibendum libero sapien quis massa. Quisque vulputate accumsan nisi nec bibendum. Phasellus lobortis, odio sit amet sagittis suscipit, nulla enim aliquet risus, eu elementum tellus magna sed dolor. Donec tristique tincidunt blandit. In id aliquet tellus. Proin accumsan pellentesque congue. Aliquam pellentesque eu diam id imperdiet.
             
             Cras vestibulum enim id nunc auctor, nec pretium mauris ullamcorper. Curabitur lacus tellus, malesuada eu rutrum id, consectetur malesuada odio. Donec volutpat orci nec libero semper, nec ultricies quam volutpat. Suspendisse vel felis eget lectus congue fermentum. In vitae fermentum ante. Morbi ac ipsum libero. Morbi laoreet porttitor bibendum. Cras vulputate imperdiet sapien, ut scelerisque justo dictum ac. Phasellus efficitur, lacus iaculis consectetur consequat, nulla quam tincidunt dolor, ut convallis quam sapien luctus velit. Donec posuere diam vitae ligula aliquet pharetra. Integer ex massa, consequat vel nisi ut, consectetur egestas tellus. Etiam vitae tellus vel turpis egestas commodo vel nec est. Nullam at dolor nec est feugiat varius.`,
             url: "/TAC/",
             image: "",
+            date: "",
         },
         {
             title: "Announcement Two",
+            category: "",
             content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis eleifend congue. Nullam sed viverra lorem, ut accumsan justo. In hendrerit libero ipsum, ut vehicula elit tempor et. Praesent semper vulputate lectus non convallis. Cras finibus, dolor quis hendrerit placerat, nibh ipsum imperdiet orci, non bibendum libero sapien quis massa. Quisque vulputate accumsan nisi nec bibendum. Phasellus lobortis, odio sit amet sagittis suscipit, nulla enim aliquet risus, eu elementum tellus magna sed dolor. Donec tristique tincidunt blandit. In id aliquet tellus. Proin accumsan pellentesque congue. Aliquam pellentesque eu diam id imperdiet.
             
             Cras vestibulum enim id nunc auctor, nec pretium mauris ullamcorper. Curabitur lacus tellus, malesuada eu rutrum id, consectetur malesuada odio. Donec volutpat orci nec libero semper, nec ultricies quam volutpat. Suspendisse vel felis eget lectus congue fermentum. In vitae fermentum ante. Morbi ac ipsum libero. Morbi laoreet porttitor bibendum. Cras vulputate imperdiet sapien, ut scelerisque justo dictum ac. Phasellus efficitur, lacus iaculis consectetur consequat, nulla quam tincidunt dolor, ut convallis quam sapien luctus velit. Donec posuere diam vitae ligula aliquet pharetra. Integer ex massa, consequat vel nisi ut, consectetur egestas tellus. Etiam vitae tellus vel turpis egestas commodo vel nec est. Nullam at dolor nec est feugiat varius.`,
             url: "/TAC/",
             image: "",
+            date: "",
         },
         {
             title: "Announcement Three",
+            category: "",
             content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis eleifend congue. Nullam sed viverra lorem, ut accumsan justo. In hendrerit libero ipsum, ut vehicula elit tempor et. Praesent semper vulputate lectus non convallis. Cras finibus, dolor quis hendrerit placerat, nibh ipsum imperdiet orci, non bibendum libero sapien quis massa. Quisque vulputate accumsan nisi nec bibendum. Phasellus lobortis, odio sit amet sagittis suscipit, nulla enim aliquet risus, eu elementum tellus magna sed dolor. Donec tristique tincidunt blandit. In id aliquet tellus. Proin accumsan pellentesque congue. Aliquam pellentesque eu diam id imperdiet.
             
             Cras vestibulum enim id nunc auctor, nec pretium mauris ullamcorper. Curabitur lacus tellus, malesuada eu rutrum id, consectetur malesuada odio. Donec volutpat orci nec libero semper, nec ultricies quam volutpat. Suspendisse vel felis eget lectus congue fermentum. In vitae fermentum ante. Morbi ac ipsum libero. Morbi laoreet porttitor bibendum. Cras vulputate imperdiet sapien, ut scelerisque justo dictum ac. Phasellus efficitur, lacus iaculis consectetur consequat, nulla quam tincidunt dolor, ut convallis quam sapien luctus velit. Donec posuere diam vitae ligula aliquet pharetra. Integer ex massa, consequat vel nisi ut, consectetur egestas tellus. Etiam vitae tellus vel turpis egestas commodo vel nec est. Nullam at dolor nec est feugiat varius.`,
             url: "/TAC/",
             image: "",
+            date: "",
         },
         {
             title: "Announcement Four",
+            category: "",
             content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis eleifend congue. Nullam sed viverra lorem, ut accumsan justo. In hendrerit libero ipsum, ut vehicula elit tempor et. Praesent semper vulputate lectus non convallis. Cras finibus, dolor quis hendrerit placerat, nibh ipsum imperdiet orci, non bibendum libero sapien quis massa. Quisque vulputate accumsan nisi nec bibendum. Phasellus lobortis, odio sit amet sagittis suscipit, nulla enim aliquet risus, eu elementum tellus magna sed dolor. Donec tristique tincidunt blandit. In id aliquet tellus. Proin accumsan pellentesque congue. Aliquam pellentesque eu diam id imperdiet.
             
             Cras vestibulum enim id nunc auctor, nec pretium mauris ullamcorper. Curabitur lacus tellus, malesuada eu rutrum id, consectetur malesuada odio. Donec volutpat orci nec libero semper, nec ultricies quam volutpat. Suspendisse vel felis eget lectus congue fermentum. In vitae fermentum ante. Morbi ac ipsum libero. Morbi laoreet porttitor bibendum. Cras vulputate imperdiet sapien, ut scelerisque justo dictum ac. Phasellus efficitur, lacus iaculis consectetur consequat, nulla quam tincidunt dolor, ut convallis quam sapien luctus velit. Donec posuere diam vitae ligula aliquet pharetra. Integer ex massa, consequat vel nisi ut, consectetur egestas tellus. Etiam vitae tellus vel turpis egestas commodo vel nec est. Nullam at dolor nec est feugiat varius.`,
             url: "/TAC/",
             image: "",
+            date: "",
         },
         {
             title: "Announcement Five",
+            category: "",
             content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis eleifend congue. Nullam sed viverra lorem, ut accumsan justo. In hendrerit libero ipsum, ut vehicula elit tempor et. Praesent semper vulputate lectus non convallis. Cras finibus, dolor quis hendrerit placerat, nibh ipsum imperdiet orci, non bibendum libero sapien quis massa. Quisque vulputate accumsan nisi nec bibendum. Phasellus lobortis, odio sit amet sagittis suscipit, nulla enim aliquet risus, eu elementum tellus magna sed dolor. Donec tristique tincidunt blandit. In id aliquet tellus. Proin accumsan pellentesque congue. Aliquam pellentesque eu diam id imperdiet.
             
             Cras vestibulum enim id nunc auctor, nec pretium mauris ullamcorper. Curabitur lacus tellus, malesuada eu rutrum id, consectetur malesuada odio. Donec volutpat orci nec libero semper, nec ultricies quam volutpat. Suspendisse vel felis eget lectus congue fermentum. In vitae fermentum ante. Morbi ac ipsum libero. Morbi laoreet porttitor bibendum. Cras vulputate imperdiet sapien, ut scelerisque justo dictum ac. Phasellus efficitur, lacus iaculis consectetur consequat, nulla quam tincidunt dolor, ut convallis quam sapien luctus velit. Donec posuere diam vitae ligula aliquet pharetra. Integer ex massa, consequat vel nisi ut, consectetur egestas tellus. Etiam vitae tellus vel turpis egestas commodo vel nec est. Nullam at dolor nec est feugiat varius.`,
             url: "/TAC/",
             image: "",
-        },
-        {
-            title: "Announcement Six",
-            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis eleifend congue. Nullam sed viverra lorem, ut accumsan justo. In hendrerit libero ipsum, ut vehicula elit tempor et. Praesent semper vulputate lectus non convallis. Cras finibus, dolor quis hendrerit placerat, nibh ipsum imperdiet orci, non bibendum libero sapien quis massa. Quisque vulputate accumsan nisi nec bibendum. Phasellus lobortis, odio sit amet sagittis suscipit, nulla enim aliquet risus, eu elementum tellus magna sed dolor. Donec tristique tincidunt blandit. In id aliquet tellus. Proin accumsan pellentesque congue. Aliquam pellentesque eu diam id imperdiet.
-            
-            Cras vestibulum enim id nunc auctor, nec pretium mauris ullamcorper. Curabitur lacus tellus, malesuada eu rutrum id, consectetur malesuada odio. Donec volutpat orci nec libero semper, nec ultricies quam volutpat. Suspendisse vel felis eget lectus congue fermentum. In vitae fermentum ante. Morbi ac ipsum libero. Morbi laoreet porttitor bibendum. Cras vulputate imperdiet sapien, ut scelerisque justo dictum ac. Phasellus efficitur, lacus iaculis consectetur consequat, nulla quam tincidunt dolor, ut convallis quam sapien luctus velit. Donec posuere diam vitae ligula aliquet pharetra. Integer ex massa, consequat vel nisi ut, consectetur egestas tellus. Etiam vitae tellus vel turpis egestas commodo vel nec est. Nullam at dolor nec est feugiat varius.`,
-            url: "/TAC/",
-            image: "",
+            date: "",
         },
     ]
 
@@ -96,34 +98,24 @@ export default function Home(){
             url: "/TAC/merch",
             info: "Check out our merch."
         },
-        {
-            text: "test 1",
-            url: "/TAC/gamesignup",
-            info: "Sign up for a game."
-        },
-        {
-            text: "test 2",
-            url: "/TAC/gamesignup",
-            info: "Sign up for a game."
-        },
     ];
 
     // Footer Navigation
     const navFooter = [
         {
-            text: "Footer",
+            text: "Footer 1",
             url: "/TAC/",
         },
         {
-            text: "Footer",
+            text: "Footer 2",
             url: "/TAC/",
         },
         {
-            text: "Footer",
+            text: "Footer 3",
             url: "/TAC/",
         },
         {
-            text: "Footer",
+            text: "Footer 4",
             url: "/TAC/",
         },
     ];
@@ -200,10 +192,11 @@ export default function Home(){
             <footer className={styles.contFooter}>
                 <div className={styles.contFooterLeft}>
                     <p className={styles.textFooter}>
-                        Some sort of copyright text or something.
+                        Insert copyright/business text official stuff here.
                     </p>
+                    <hr></hr>
                     <p className={styles.textFooter}>
-                        Special thanks to all my friends and stuff.
+                        Special thanks to the collaborators involved goes here.
                     </p>
                 </div>
 

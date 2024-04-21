@@ -1,5 +1,24 @@
+:root {
+    --cosmicBlack: #0C0C0C;
+    --eldritchPurple: #6A0DAD;
+    --abyssalBlue: #04035C;
+    --voidGray: #333333;
+    --otherworldlyGreen: #00A896;
+    --etherealYellow: #FFD700;
+    --shadowedVerdantGreen: #004D40;
+    --mistyGray: #CCCCCC;
+    --etherealBlue: #4A4AFF;
+    --shadowedViolet: #4F0080;
+}
+
+/* **MOVE THIS CODE & VARIABLES TO A GLOBAL CSS SHEET** */
+body {
+    background-color: var(--cosmicBlack);
+}
+
 /* Header Organization */
 .contHeader {
+    background-color: var(--otherworldlyGreen);
     display: flex;
     border: solid;
     aspect-ratio: 16;
@@ -7,19 +26,19 @@
 }
 
 .btnHeader {
+    color: var(--cosmicBlack);
     display: flex;
     align-items: center;
     justify-content: center;
     border: solid;
-    border-color: purple;
     text-align: center;
     width: 100%;
     text-decoration: none;
-    color: black;
 }
 
 /* Main Organization */
 .contMain {
+    background-color: var(--shadowedViolet);
     margin: 0;
     display: flex;
     border: solid;
@@ -34,14 +53,11 @@
     display: flex;
     flex-direction: column;
     width: 70%;
-    font-size: 32px;
     text-align: center;
     margin: 5%;
     height: 75%;
     aspect-ratio: 16 / 9;
     border: solid;
-
-    background-color: grey;
 }
 
 .contRight {
@@ -55,52 +71,58 @@
 }
 
 .contAnnouncements {
-    background-color: green;
+    background-color: var(--voidGray);
     overflow: scroll;
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 /* Announcements Organization and Formatting */
 .announcementHeader {
+    color: var(--etherealYellow);
     font-size: 3vw;
     text-decoration: none;
-    color: yellow;
-}
-
-.announcementHeader:hover {
-    color: white;
 }
 
 .announcementContent {
+    color: var(--mistyGray);
     font-size: 1.5vw;
-    color: blue;
-    padding: 0;
-    margin: 0;
 }
 
 /* Button Organization and Formatting */
 .btnPrimary {
+    background-color: var(--etherealBlue);
+    color: var(--cosmicBlack);
     font-size: 4vw;
     border: solid;
     text-decoration: none;
-    color: black;
+}
+
+.btnPrimary:hover {
+    background-color: var(--otherworldlyGreen);
 }
 
 .btnSecondary {
+    background-color: var(--etherealBlue);
+    color: var(--cosmicBlack);
     display: flex;
     align-items: center;
     justify-content: center;
     border: solid;
     text-decoration: none;
-    color: black;
     font-size: 2.5vw;
 }
 
 .btnSecondary:hover {
-    background-color: lightgray;
+    background-color: var(--otherworldlyGreen);
 }
 
 /* Footer Organization */
 .contFooter {
+    background-color: var(--abyssalBlue);
+    margin-top: 5%;
     display: flex;
     justify-content: space-evenly;
     flex-flow: row;
@@ -111,8 +133,7 @@
     display: flex;
     justify-content: space-around;
     width: 70%;
-    margin: 5%;
-    margin-top: 1%;
+    margin: 2%;
     border: solid;
 }
 
@@ -121,51 +142,94 @@
     justify-content: space-around;
     flex-direction: column;
     width: 30%;
-    margin: 5%;
-    margin-top: 1%;
+    margin: 2%;
     border: solid;
 }
 
 .textFooter {
-    margin: 1%;
-    padding: 2%;
-    border: solid;
+    color: var(--mistyGray);
     text-align: center;
+    padding: 5%;
 }
 
 .btnFooter {
+    color: var(--etherealYellow);
     margin: auto;
     padding: 4px;
+    text-decoration: underline;
 }
 
 /* Misc. */
 hr {
-    background-color:black;
+    background-color: var(--cosmicBlack);
     height: 0.25vw;
     border: none;
 }
 
 /* Mobile Scalability */
 @media screen and (max-width: 1280px){
+    .btnHeader {
+        height: 150%;
+        font-size: 5vw;
+    }
+    
     .contMain {
-        background-color: gray;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
+    }
+
+    .contLeft {
+        height: 200%;
+        width: 90%;
+        margin: 2%;
+    }
+
+    .btnPrimary {
+        font-size: 6vw;
+    }
+
+    .announcementHeader {
+        font-size: 5vw;
+    }
+
+    .contAnnouncements {
+        padding-top: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .announcementContent {
+        font-size: 3vw;
+        padding-top: 0%;
+        padding-bottom: 3%;
     }
 
     .contRight {
-        width: 70%;
+        height: 200%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: baseline;
+        padding: 1%;
+    }
+
+    .btnSecondary {
+        width: 33%;
+        font-size: 5vw;
+        padding: 3vw;
     }
 
     .contFooter {
-        background-color: gray;
         flex-wrap: wrap;
     }
 
     .contFooterLeft {
         flex-wrap: wrap;
+        margin: 3%;
     }
 
     .contFooterRight {
+        flex-direction: row;
         flex-wrap: wrap;
+        width: 100%;
     }
 }

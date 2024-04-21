@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://pakuhn93.github.io/TAC/",
+  "homepage":"https://pakuhn93.github.io/TAC",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
