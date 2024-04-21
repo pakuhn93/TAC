@@ -19,7 +19,7 @@ import Announcements from './pages/Announcements/Announcements.jsx';
 // initialize the router (similar to express)
 const router = createBrowserRouter([
   {
-    path: '/TAC',
+    path: '/TAC/',
     element: <App />,
     children: [
       {
