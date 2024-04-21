@@ -96,6 +96,16 @@ export default function Home(){
             url: "/TAC/merch",
             info: "Check out our merch."
         },
+        {
+            text: "test 1",
+            url: "/TAC/gamesignup",
+            info: "Sign up for a game."
+        },
+        {
+            text: "test 2",
+            url: "/TAC/gamesignup",
+            info: "Sign up for a game."
+        },
     ];
 
     // Footer Navigation
